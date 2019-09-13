@@ -43,11 +43,11 @@ It is an interactive application that allows users to get the word out of import
 
 ##### Next:
 
-(1) Fork this repository <br />
+(1) Fork this repository to your account <br />
 (2) Open your terminal or command prompt and clone this repository to a directory of your choice <br />
-(3) Open the project in your favorite editor (e.g. Atom, Visual Studio Code, Sublime, Brackets) <br />
-(4) Navigate to the 'BeInTheKnow_backend' directory on your machine using the terminal or command prompt (or the integrated one for your editor) <br />
-(5) Next, type 'bundle install '. This should install all of the gems it requires. <br />
+(3) Open the cloned repo's directory in your favorite editor (e.g. Atom, Visual Studio Code, Sublime, Brackets) <br />
+(4) In the Terminal or Command Prompt, navigate to the 'BeInTheKnow_backend' directory <br />
+(5) Next, type 'bundle install'. This should install all of the required gems <br />
 (6) Create a '.env' file in your root directory and paste the following into it:
 
 ```
@@ -65,6 +65,22 @@ Note: Remember to replace the username & password with whatever you use to log i
 (7) Run rake db:migrate to run the migrations <br />
 (8) Type ' rails s -p 3001' into the terminal to launch the server <br />
 (9) Open your browser and navigate to 'http://localhost:3001' (press ctrl-C or control-C while in the terminal to exit.)<br />
+
+## Contributing
+
+#####To contribute:
+(1) follow the instructions in the Usage section if you have not already done so <br />
+(2) continue once you have forked to repo, cloned it, and gotten the repo working on your machine <br />
+(3) figure out what it is you want to add or edit <br />
+(4) create a **new branch** for it <br />
+(5) make your additions or changes <br />
+(6) test that the code is clean <br />
+(7) test to make sure the changes didn't break anything <br />
+(8) stage the additions/changes (using **add**) <br />
+(9) commit the additions/changes with a proper commit message <br />
+(8) push it up to your repository (the **new branch**) <br />
+(9) create a new pull request and include a brief description of & reason for the change <br />
+(10) wait to see what happens :) <br />
 
 ## Reporting Issues
 
