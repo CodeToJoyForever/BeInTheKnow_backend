@@ -66,6 +66,23 @@ Note: Remember to replace the username & password with whatever you use to log i
 (8) Type ' rails s -p 3001' into the terminal to launch the server <br />
 (9) Open your browser and navigate to 'http://localhost:3001' (press ctrl-C or control-C while in the terminal to exit.)<br />
 
+## Contributing
+
+#####To contribute:
+
+(1) fork this repository to your account <br />
+(2) clone it to your local machine <br />
+(3) figure out what it is you want to add or edit <br />
+(4) create a **new branch** for it <br />
+(5) make your additions or changes <br />
+(6) test that the code is clean <br />
+(7) test to make sure the changes didn't break anything <br />
+(8) stage the additions/changes (using **add**) <br />
+(9) commit the additions/changes with a proper commit message <br />
+(8) push it up to your repository (the **new branch**) <br />
+(9) create a new pull request and include a brief description of & reason for the change <br />
+(10) wait to see what happens :) <br />
+
 ## Reporting Issues
 
 You may report bugs & issues on GitHub at https://github.com/CodeToJoyForever/BeInTheKnow_backend/issues
