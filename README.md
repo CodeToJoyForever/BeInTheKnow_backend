@@ -43,11 +43,11 @@ It is an interactive application that allows users to get the word out of import
 
 ##### Next:
 
-(1) Fork this repository <br />
+(1) Fork this repository to your account <br />
 (2) Open your terminal or command prompt and clone this repository to a directory of your choice <br />
-(3) Open the project in your favorite editor (e.g. Atom, Visual Studio Code, Sublime, Brackets) <br />
-(4) Navigate to the 'BeInTheKnow_backend' directory on your machine using the terminal or command prompt (or the integrated one for your editor) <br />
-(5) Next, type 'bundle install '. This should install all of the gems it requires. <br />
+(3) Open the cloned repo's directory in your favorite editor (e.g. Atom, Visual Studio Code, Sublime, Brackets) <br />
+(4) In the Terminal or Command Prompt, navigate to the 'BeInTheKnow_backend' directory <br />
+(5) Next, type 'bundle install'. This should install all of the required gems <br />
 (6) Create a '.env' file in your root directory and paste the following into it:
 
 ```
@@ -69,9 +69,8 @@ Note: Remember to replace the username & password with whatever you use to log i
 ## Contributing
 
 #####To contribute:
-
-(1) fork this repository to your account <br />
-(2) clone it to your local machine <br />
+(1) follow the instructions in the Usage section if you have not already done so <br />
+(2) continue once you have forked to repo, cloned it, and gotten the repo working on your machine <br />
 (3) figure out what it is you want to add or edit <br />
 (4) create a **new branch** for it <br />
 (5) make your additions or changes <br />
