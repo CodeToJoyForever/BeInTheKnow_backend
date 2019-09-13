@@ -22,6 +22,8 @@ It is an interactive application that allows users to get the word out of import
 * **Wendy Calderon**
 * **Danielle Alba**
 * **Sarah Paz**
+* **Dylan Clemens**
+
 
 
 ## Plans
