@@ -68,19 +68,29 @@ Note: Remember to replace the username & password with whatever you use to log i
 
 ## Contributing
 
-##### To contribute:
-(1) follow the instructions in the Usage section if you have not already done so <br />
-(2) continue once you have forked to repo, cloned it, and gotten the repo working on your machine <br />
-(3) figure out what it is you want to add or edit <br />
-(4) create a **new branch** for it <br />
-(5) make your additions or changes <br />
-(6) test that the code is clean <br />
-(7) test to make sure the changes didn't break anything <br />
-(8) stage the additions/changes (using **add**) <br />
-(9) commit the additions/changes with a proper commit message <br />
-(8) push it up to your repository (the **new branch**) <br />
-(9) create a new pull request and include a brief description of & reason for the change <br />
-(10) wait to see what happens :) <br />
+#### To contribute: <br />
+<br />
+
+**If you have NOT followed the instructions to fork, clone, and set up the repository on your machine:**
+
+(1) Follow the instructions in the *Usage & Instructions* section if you have not already done so <br />
+(2) Continue to *(3)* once you have forked the repo, cloned it, and gotten the repo working on your machine <br />
+
+
+**If you HAVE followed the instructions to fork, clone, and set up the repository on your machine:**
+
+(3) make sure you are in the **master** branch when you start </br >
+(4) backup work you want to keep & type ```git pull origin master``` to pull and merge the changes to get the updated source code and overwrite your existing code in the master branch. <br />
+(5) figure out what it is you want to add or edit <br />
+(6) create a **new branch** for it <br />
+(7) make your additions or changes <br />
+(8) test that the code is clean <br />
+(9) test to make sure the changes didn't break anything <br />
+(10) stage the additions/changes (using **add**) <br />
+(11) commit the additions/changes with a proper commit message <br />
+(12) push it up to your repository (the **new branch**) ```git push origin branch-name``` <br />
+(13) create a new pull request and include a brief description of & reason for the change <br />
+(14) wait to see what happens :) <br />
 
 ## Reporting Issues
 
