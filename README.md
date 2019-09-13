@@ -68,7 +68,7 @@ Note: Remember to replace the username & password with whatever you use to log i
 
 ## Contributing
 
-#####To contribute:
+##### To contribute:
 (1) follow the instructions in the Usage section if you have not already done so <br />
 (2) continue once you have forked to repo, cloned it, and gotten the repo working on your machine <br />
 (3) figure out what it is you want to add or edit <br />
