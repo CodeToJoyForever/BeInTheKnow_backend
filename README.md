@@ -1,10 +1,12 @@
-# Be In The Know (BiK)
+# Be In The Know (BKnow)
 
 ## Background
 
 
 ## Description
+Many people are not aware of situations where they could make a difference. This might be because they do not have social media accounts or the time to keep on top of current events. *In The Know* makes it easy for users to not only be aware of important events, but to also become part of the change the world needs.
 
+It is an interactive application that allows users to get the word out of important causes, catastrophes, or achievements. It allows users to contribute.
 
 ## Built With
 
@@ -44,7 +46,7 @@
 (3) Open the project in your favorite editor (e.g. Atom, Visual Studio Code, Sublime, Brackets) <br />
 (4) Navigate to the 'BeInTheKnow_backend' directory on your machine using the terminal or command prompt (or the integrated one for your editor) <br />
 (5) Next, type 'bundle install '. This should install all of the gems it requires. <br />
-(6) Create a '.env' file in your root directory and past the following into it:
+(6) Create a '.env' file in your root directory and paste the following into it:
 
 ```
 POSTGRES_USERNAME= replace-with-your-postgres-username-here-in-quotes
