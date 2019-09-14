@@ -77,18 +77,54 @@ Note: Remember to replace the username & password with whatever you use to log i
 
 **If you HAVE followed the instructions to fork, clone, and set up the repository on your machine:**
 
-(3) make sure you are in the **master** branch when you start </br >
-(4) backup work you want to keep & type ```git pull origin master``` to pull and merge the changes to get the updated source code and overwrite your existing code in the master branch. <br />
-(5) figure out what it is you want to add or edit <br />
-(6) create a **new branch** for it <br />
-(7) make your additions or changes <br />
-(8) test that the code is clean <br />
-(9) test to make sure the changes didn't break anything <br />
-(10) stage the additions/changes (using **add**) <br />
-(11) commit the additions/changes with a proper commit message <br />
-(12) push it up to your repository (the **new branch**) ```git push origin branch-name``` <br />
-(13) create a new pull request and include a brief description of & reason for the change <br />
-(14) wait to see what happens :) <br />
+(3) make sure you are in the **master** branch when you start<br />
+```
+  git checkout master
+```
+<br />
+
+(4) backup work you want to keep & update your forked repo<br />
+
+(5) **To update your forked & cloned repo type:**
+
+
+ ```
+
+ # all names, including the remote name and branch, are case-sensitive
+
+
+ # if you have not already done so, add a named remote to the source repo
+ git remote add upstream https://github.com/CodeToJoyForever/BeInTheKnow_backend.git
+
+
+ # get the info from the source repo
+ git fetch upstream
+
+
+ # merge the info to your master
+ git merge upstream/master
+
+
+ # push & update your forked repo
+ git push origin master
+
+
+ # ** This will update your clone and fork **
+
+
+ ```
+
+
+(6) figure out what it is you want to add or edit <br />
+(7) create a **new branch** for it on your cloned repo <br />
+(8) make your additions or changes <br />
+(9) test that the code is clean <br />
+(10) test to make sure the changes didn't break anything <br />
+(11) stage the additions/changes (using **add**) <br />
+(12) commit the additions/changes with a proper commit message <br />
+(13) push it up to your repository (the **new branch**) ```git push origin branch-name``` <br />
+(14) create a new pull request and include a brief description of & reason for the change <br />
+(15) wait to see if your pull request gets accepted :) <br />
 
 ## Reporting Issues
 
