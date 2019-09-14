@@ -1,6 +1,6 @@
 # BE IN THE KNOW (BKnow)
 
-## Descåription
+## Description
 
 Many people are not aware of situations where they could make a difference. This might be because they do not have social media accounts or the time to keep on top of current events. *In The Know* makes it easy for users to not only be aware of important events, but to also become part of the change the world needs.
 
