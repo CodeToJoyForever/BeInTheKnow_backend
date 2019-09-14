@@ -1,8 +1,5 @@
 # Be In The Know (BKnow)
 
-## Background
-
-
 ## Description
 Many people are not aware of situations where they could make a difference. This might be because they do not have social media accounts or the time to keep on top of current events. *In The Know* makes it easy for users to not only be aware of important events, but to also become part of the change the world needs.
 
@@ -35,13 +32,13 @@ It is an interactive application that allows users to get the word out of import
 
 ## Installation & Usage
 
-##### Before you can test or use this application, you must:
+### Before you can test or use this application, you must:
 
 (1) Install Ruby: https://www.ruby-lang.org/en/documentation/installation/ <br />
 (2) Install Ruby on Rails: https://guides.rubyonrails.org/getting_started.html <br />
 (3) Install PostGres: https://www.tutorialspoint.com/postgresql/postgresql_environment.htm <br />
 
-##### Next:
+### Next:
 
 (1) Fork this repository to your account <br />
 (2) Open your terminal or command prompt and clone this repository to a directory of your choice <br />
@@ -68,7 +65,7 @@ Note: Remember to replace the username & password with whatever you use to log i
 
 ## Contributing
 
-#### To contribute: <br />
+### To contribute: <br />
 <br />
 
 **If you have NOT followed the instructions to fork, clone, and set up the repository on your machine:**
@@ -98,7 +95,7 @@ You may report bugs & issues on GitHub at https://github.com/CodeToJoyForever/Be
 
 ## Code of Conduct
 
-Everyone interacting in the SaladBowl project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/CodeToJoyForever/BeInTheKnow_backend/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in BeInTheKnow's codebases, issue trackers, chat rooms, and mailing lists is expected to follow the [code of conduct](https://github.com/CodeToJoyForever/BeInTheKnow_backend/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 Not yet open source.
