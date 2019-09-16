@@ -24,12 +24,7 @@ It is an interactive application that allows users to get the word out of import
 
 
 ## Plans
-
--[ ] Choose Gems to use
--[ ] Create Tests
--[ ] Create models
--[ ] Create Tables
--[ ] Create Controllers
+See dev_log file add to it !
 
 ## Installation & Usage
 
