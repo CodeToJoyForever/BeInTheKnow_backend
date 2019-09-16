@@ -58,11 +58,12 @@ POSTGRES_DEVELOPMENT='BeInTheKnow_backend_development'
 POSTGRES_PRODUCTION='BeInTheKnow_backend_production'
 ```
 
-Note: Remember to replace the username & password with whatever you use to log into your postgres database.
-**Dont forget Run rake db:create 
-(7) Run rake db:migrate to run the migrations <br />
-(8) Type ' rails s -p 3001' into the terminal to launch the server <br />
-(9) Open your browser and navigate to 'http://localhost:3001' (press ctrl-C or control-C while in the terminal to exit.)<br />
+Note: Remember to replace the username & password with whatever you use to log into your postgres database.<br />
+<br />
+(7) Don't forget Run `rake db:create` <br />
+(8) Run `rake db:migrate` to run the migrations <br />
+(9) Type `rails s -p 3001` into the terminal to launch the server <br />
+(10) Open your browser and navigate to 'http://localhost:3001' (press ctrl-C or control-C while in the terminal to exit.)<br />
 
 ## Contributing
 
