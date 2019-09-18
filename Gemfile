@@ -15,7 +15,9 @@ gem 'dotenv-rails'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
- gem 'bcrypt', '~> 3.1.7'
+ # gem 'bcrypt', '~> 3.1.7'
+
+ gem 'devise', '~> 4.7', '>= 4.7.1'
  gem 'active_model_serializers'
 
 # Use ActiveStorage variant
@@ -29,11 +31,13 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
  gem 'rack-cors'
+ gem 'rspec', '~> 3.8'
+ gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
 
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
 group :development do
