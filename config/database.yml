@@ -33,19 +33,19 @@
 
 
 default: &default
-  host: <%= ENV['POSTGRES_HOST'] %>
-  username: <%= ENV['POSTGRES_USERNAME'] %>
-  password: <%= ENV['POSTGRES_PASSWORD'] %>
-  adapter: postgresql
-  encoding: utf8
+  host: localhost	 
+  username: sim 
+  password: 11dgr23	  
+  adapter: postgresql	 
+  encoding: unicode
 
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+ 
 
 development:
   <<: *default
-  database: <%= ENV['POSTGRES_DEVELOPMENT'] %>
+  database: BeInTheKnow_backend_development	
 
 
   # The specified database role being used to connect to postgres.
@@ -80,7 +80,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: <%= ENV['POSTGRES_TEST'] %>
+  database:  BeInTheKnow_backend_test
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -103,4 +103,5 @@ test:
 #
 production:
   <<: *default
-  database: <%= ENV['POSTGRES_PRODUCTION'] %>
+  database: BeInTheKnow_backend_production	 
+  username: BeInTheKnow_backend
