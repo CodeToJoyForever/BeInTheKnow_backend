@@ -14,6 +14,7 @@ Please put an X in the box once you have complited the task.
 11. [ ] test user model
 12. [ ] omni-auth for login (like facebook,github)
 13. [x] add JWT token to server
-14. [ ] add JWT token test for login/signup
+14. [ ] other devs use postman to hit the api
+15. [ ] add JWT token test for login/signup
 
 
