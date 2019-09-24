@@ -10,6 +10,13 @@ class Api::UsersController < ApplicationController
   # POST /users
   def create
     
+    @user = User.new(email: params[:email], password: params[:password]) 
+    if @user.save
+     render json: {message: "You have been authenticated #{@user.username} ",token: User.create_token(@user) }
+    else
+     render json:{
+        errors: @user.errors.full_messages } #, status: "Please enter a valid email and password!"
+     end
   end
 
 
