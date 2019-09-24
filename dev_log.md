@@ -13,4 +13,7 @@ Please put an X in the box once you have complited the task.
 10. [ ] whitelist only  front-end in cors.rb
 11. [ ] test user model
 12. [ ] omni-auth for login (like facebook,github)
-13. [ ]
+13. [x] add JWT token to server
+14. [ ] add JWT token test for login/signup
+
+
