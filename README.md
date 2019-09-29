@@ -5,22 +5,14 @@ Many people are not aware of situations where they could make a difference. This
 
 It is an interactive application that allows users to get the word out of important causes, catastrophes, or achievements. It allows users to contribute.
 
+The **front-end** complement of this repo lives [here](https://github.com/CodeToJoyForever/beintheknow_frontend).
+
+
 ## Built With
 
 * [Ruby](https://www.ruby-lang.org/en/) - version 2.6.3
 * [Rails](https://guides.rubyonrails.org/) - version 5.2.3
 * [ActiveRecord](https://guides.rubyonrails.org/active_record_basics.html)
-
-
-## Current Authors
-
-* **Mohammad Adeel**
-* **Simcha Greenbaum**
-* **Wendy Calderon**
-* **Danielle Alba**
-* **Sarah Paz**
-* **Dylan Clements**
-
 
 
 ## Plans
