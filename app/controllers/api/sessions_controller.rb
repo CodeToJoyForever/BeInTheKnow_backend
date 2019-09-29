@@ -1,8 +1,6 @@
 class Api::SessionsController < ApplicationController
   def welcome
-    render json: {
-      welcome: "your API has loaded"
-    }
+    render json: { welcome: "your API has loaded"}
   end
   def create
     @user = User.find_by(username: params[:username])
