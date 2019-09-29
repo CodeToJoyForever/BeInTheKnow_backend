@@ -9,9 +9,7 @@ class Api::SessionsController < ApplicationController
     if @user && @user.authenticate(params[:password])
       render json: {message: "You have been authenticated #{@user.username} ",token: User.create_token(@user) }
     else 
-        render json:{
-          errors: "Your Username and Password do not match, please try again"
-      } 
+      render json: { errors: "Your Username and Password do not match, please try again"} 
     end  
   end
      
