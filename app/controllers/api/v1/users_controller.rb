@@ -12,13 +12,12 @@ class Api::V1::UsersController < ApplicationController
 
   # POST /users
   def create
-    @user = User.new(email: params[:email], password: params[:password])
+    @user = User.new(user_params)
 
     if @user.save
       render json: {message: "You have been authenticated #{@user.username} ",token: User.create_token(@user) }
     else
-      render json:{
-      errors: @user.errors.full_messages } #, status: "Please enter a valid email and password!"
+      render json: { errors: @user.errors.full_messages }  #, status: "Please enter a valid email and password!"
     end
   end
 
@@ -30,6 +29,10 @@ class Api::V1::UsersController < ApplicationController
 
 
 private
+
+  def set_user
+    @user = User.find(params[:id])
+  end
 
   # Only allow a trusted parameter "white list" through.
   def user_params
