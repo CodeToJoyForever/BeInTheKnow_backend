@@ -1,5 +1,7 @@
-Please put an X in the box once you have complited the task.
+Please put an X in the box once you have completed the task.
 
+
+BACKEND
 
 1. [X] Choose Gems to use
 2. [ ] Confirm which table is the join table add to DEVDOC
@@ -15,6 +17,4 @@ Please put an X in the box once you have complited the task.
 12. [ ] omni-auth for login (like facebook,github)
 13. [x] add JWT token to server
 14. [ ] other devs use postman to hit the api
-15. [ ] add JWT token test for login/signup
-
-
+15. [] add JWT token test for login/signup
