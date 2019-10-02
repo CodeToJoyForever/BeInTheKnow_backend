@@ -8,7 +8,7 @@ class Api::V1::SessionsController < ApplicationController
   def create
     @user = User.find_by(username: params[:username])
 
-    if @user && @user&.authenticate(params[:password]) # look up ruby safe navigation operator
+    if @user&.authenticate(params[:password]) # look up ruby safe navigation operator
       render json: {message: "You have been authenticated #{@user.username} ",token: User.create_token(@user) }
     else
       render json:{
