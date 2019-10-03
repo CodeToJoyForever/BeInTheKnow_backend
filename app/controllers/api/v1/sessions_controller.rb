@@ -11,9 +11,10 @@ class Api::V1::SessionsController < ApplicationController
     if @user&.authenticate(params[:password]) # look up ruby safe navigation operator
       render json: {message: "You have been authenticated #{@user.username} ",token: User.create_token(@user) }
     else
-      render json:{
-        errors: "Your Username and Password do not match, please try again"
-      }
+      render status: 401,
+        json:{
+          errors: "Your Username and Password do not match, please try again"
+        }
     end
   end
 
