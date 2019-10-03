@@ -52,6 +52,9 @@ Note: Remember to replace the username & password with whatever you use to log i
 (9) Type `rails s -p 3001` into the terminal to launch the server <br />
 (10) Open your browser and navigate to 'http://localhost:3001' (press ctrl-C or control-C while in the terminal to exit.)<br />
 
+### Running the tests
+To run the tests type  `rspec` in your terminal.
+
 ## Contributing
 
 ### To contribute: <br />
@@ -105,14 +108,15 @@ Note: Remember to replace the username & password with whatever you use to log i
 
 (6) figure out what it is you want to add or edit <br />
 (7) create a **new branch** for it on your cloned repo <br />
-(8) make your additions or changes <br />
-(9) test that the code is clean <br />
-(10) test to make sure the changes didn't break anything <br />
-(11) stage the additions/changes (using **add**) <br />
-(12) commit the additions/changes with a proper commit message <br />
-(13) push it up to your repository (the **new branch**) ```git push origin branch-name``` <br />
-(14) create a new pull request and include a brief description of & reason for the change <br />
-(15) wait to see if your pull request gets accepted :) <br />
+(8) (preferebly) add tests for the functionality that you want to add <br />
+(9) make your additions or changes <br />
+(10) test that the code is clean <br />
+(11) run the tests to make sure the changes didn't break anything <br />
+(12) stage the additions/changes (using **add**) <br />
+(13) commit the additions/changes with a proper commit message <br />
+(14) push it up to your repository (the **new branch**) ```git push origin branch-name``` <br />
+(15) create a new pull request and include a brief description of & reason for the change <br />
+(16) wait to see if your pull request gets accepted :) <br />
 
 ## Reporting Issues
 
