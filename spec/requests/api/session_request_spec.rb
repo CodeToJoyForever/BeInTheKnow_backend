@@ -1,6 +1,5 @@
 require 'rails_helper'
 require 'json'
-require 'pry'
 
 RSpec.describe "API::V1::Sessions", type: :request do
 
