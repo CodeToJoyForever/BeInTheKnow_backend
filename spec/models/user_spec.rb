@@ -17,7 +17,7 @@ RSpec.describe User, type: :model do
         end
     end
 
-    xdescribe 'validations' do
+    describe 'validations' do
         it 'requires a username and a password upon creation' do
             no_username = User.create(email: @email, password: @password)
             no_password = User.create(email: @email, username: @username)
