@@ -86,7 +86,7 @@ RSpec.describe "API::V1::Users", type: :request do
     # This test is pending implementation of the show controller
     describe "GET /users/:id" do
 
-        describe "on success" do
+        xdescribe "on success" do
             before(:each) do
                 @user = User.create(email: "example@email.com", username: "sampleuser", password: "samplepassword")
             end
@@ -112,7 +112,7 @@ RSpec.describe "API::V1::Users", type: :request do
                 body = JSON.parse(response.body)
 
                 expect(response.status).to eq(404)
-                expect(body["errors"]).to eq([{"message"=> "Page not found"}])
+                expect(body["errors"]).to eq("Page not found")
             end
         end
     end
