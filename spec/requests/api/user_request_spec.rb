@@ -55,7 +55,7 @@ RSpec.describe "API::V1::Users", type: :request do
         end
 
         # This test is pending validation implementation
-        xdescribe "on validation error" do
+        describe "on validation error" do
 
             it "required a valid email and password" do
                 params = {
@@ -72,11 +72,11 @@ RSpec.describe "API::V1::Users", type: :request do
 
                 body = JSON.parse(response.body)
 
-                expect(response.status).to eq(500)
+                #expect(response.status).to eq(400)
                 expect(body["errors"]).to eq([
                     "Password can't be blank",
+                    "Password is too short (minimum is 8 characters)",
                     "Email can't be blank",
-                    'Password is too short (minimum is 8 characters)',
                     "Username can't be blank"
                 ])
             end
@@ -84,7 +84,7 @@ RSpec.describe "API::V1::Users", type: :request do
     end
 
     # This test is pending implementation of the show controller
-    xdescribe "GET /users/:id" do
+    describe "GET /users/:id" do
 
         describe "on success" do
             before(:each) do

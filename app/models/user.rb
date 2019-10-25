@@ -1,8 +1,13 @@
 class User < ApplicationRecord
-   validates :password, length: { minimum: 8 }
-  validates :username, uniqueness: true
-  validates :username,:password,:email, presence: true
+ 
+  # 
+  # validates :password, length: { minimum: 8 }
+  # validates :username, uniqueness: true
+
   has_secure_password
+validates :email,:username, presence: true
+  validates :username, uniqueness: true
+  validates :password, length: {minimum: 8}
 # we need to change this secret into env file
   @mysecret ="myapp"
 

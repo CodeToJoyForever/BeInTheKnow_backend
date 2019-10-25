@@ -7,8 +7,15 @@ class Api::V1::UsersController < ApplicationController
   end
 
   def show
-    #verify_token(@user)
-    #render json: @user
+ 
+  token = request.env["HTTP_AUTHORIZATION"]
+    if  @user && token  && User.decode_token(token)
+        render json: @user
+    else
+        render json: { errors: @user.errors.messages}, status: 404
+    end
+    
+  
   end
 
   # POST /users
@@ -18,7 +25,7 @@ class Api::V1::UsersController < ApplicationController
     if @user.save
       render json: {message: "You have been authenticated #{@user.username} ",token: User.create_token(@user) }
     else
-      render json: { errors: @user.errors.full_messages }  #, status: "Please enter a valid email and password!"
+      render json: { errors: @user.errors.full_messages.uniq}, status: 500   #, status: "Please enter a valid email and password!"
     end
   end
 
@@ -32,7 +39,7 @@ class Api::V1::UsersController < ApplicationController
 private
 
   def set_user
-    @user = User.find(params[:id])
+    @user = User.find_by(id: params[:id])
   end
 
   # Only allow a trusted parameter "white list" through.
