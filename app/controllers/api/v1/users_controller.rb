@@ -12,7 +12,7 @@ class Api::V1::UsersController < ApplicationController
     if  @user && token  && User.decode_token(token)
         render json: @user
     else
-        render json: { errors: @user.errors.messages}, status: 404
+        render json: { errors: "Page not found"}, status: 404
     end
     
   
