@@ -7,15 +7,12 @@ class Api::V1::UsersController < ApplicationController
   end
 
   def show
- 
-  token = request.env["HTTP_AUTHORIZATION"]
+   token = request.env["HTTP_AUTHORIZATION"]
     if  @user && token  && User.decode_token(token)
         render json: @user
     else
         render json: { errors: "Page not found"}, status: 404
     end
-    
-  
   end
 
   # POST /users
