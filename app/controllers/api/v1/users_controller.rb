@@ -22,7 +22,7 @@ class Api::V1::UsersController < ApplicationController
     if @user.save
       render json: {message: "You have been authenticated #{@user.username} ",token: User.create_token(@user) }
     else
-      render json: { errors: @user.errors.full_messages.uniq}, status: 500   #, status: "Please enter a valid email and password!"
+      render json: { errors: @user.errors.full_messages.uniq}, status: 400  #, status: "Please enter a valid email and password!"
     end
   end
 
