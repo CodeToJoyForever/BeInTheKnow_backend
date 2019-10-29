@@ -86,7 +86,7 @@ RSpec.describe "API::V1::Users", type: :request do
     # This test is pending implementation of the show controller
     describe "GET /users/:id" do
 
-        xdescribe "on success" do
+        describe "on success" do
             before(:each) do
                 @user = User.create(email: "example@email.com", username: "sampleuser", password: "samplepassword")
             end
