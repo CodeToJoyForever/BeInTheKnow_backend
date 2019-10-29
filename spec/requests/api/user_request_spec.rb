@@ -72,7 +72,7 @@ RSpec.describe "API::V1::Users", type: :request do
 
                 body = JSON.parse(response.body)
 
-                #expect(response.status).to eq(400)
+                expect(response.status).to eq(400)
                 expect(body["errors"]).to eq([
                     "Password can't be blank",
                     "Password is too short (minimum is 8 characters)",
